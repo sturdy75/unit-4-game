@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="syelsheet" type="text/css" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="mainBox">
+
+        <div class="jumbotron">
+
+            <h1 class="text-center">Crystals Collector!</h1>
+            <h2 class="text-center">How to Play</h2>
+            <p class="text-center">By clicking on a crystal you will add a specific amount of points to your total score
+            </p>
+            <p class="text-center">You win the game by matching your total score to a random number.</p>
+            <p class="text-center">You lose the game if your total score goes above the random number</p>
+            <p class="text-center">The value of each crystal is hidden from you until you click on it</p>
+            <p class="text-center">Each time the game starts it will asign a new random number for each crystal.</p>
+
+        </div>
+
+        <div class="row" id="mainGameSection">
+            <div class="col-md-3" id="numberSection">
+
+                <h3 class="text-center" id="scoreToMatch">Score to Match: </h3>
+                <h1 class="numberBox text-center" id="computerNum"></h1>
+
+            </div>
+
+            <div class="col-md-6 text-center" id="crystals">
+            </div>
+
+
+
+            <div class="box" id="computerNum"></div>
+
+            <div class="box" id="scoreBoard"></div>
+            <p id="wins"></p>
+            <p id="losses"></p>
+
+
+
+
+        <div class="box" id="yourCurrentScore">
+            <h3>Your Current Score</h3>
+        </div>
+        <div class="box" id="userNum"></div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+
+</html>
